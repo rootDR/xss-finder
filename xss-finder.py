@@ -6,6 +6,11 @@ from termcolor import colored
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 import os
+import warnings
+from bs4 import MarkupResemblesLocatorWarning
+
+# Suppress the MarkupResemblesLocatorWarning
+warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 # XSS Payloads (HTML, Attribute, JS)
 BASE_PAYLOADS = [
@@ -25,12 +30,12 @@ def print_banner():
  \_/    (_,   (_,      '|_,      ' |        |\ |        | \,       /_,       |_)  
  / \     _)    _)       |         _|_,      |'\|       _|_/       '\_       '| \  
 '   `   '     '         '        '          '  `      '              `       '  ` 
-                                                                                  
-
+                                                                                   
+                                                                                   
     Automated XSS & Reflected Parameter Finder Tool
     Author: rootdr | Twitter: @R00TDR , Telegram: https://t.me/RootDr
     """
-    print(colored(banner, "cyan"))
+    print(colored(banner, "red"))
 
 def fetch_url(url):
     """Fetch content of a URL."""
