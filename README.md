@@ -1,3 +1,7 @@
+
+   ![Banner](banner.png)
+
+
 # XSS Finder
 
 **XSS Finder** is an automated tool designed for detecting reflected Cross-Site Scripting (XSS) vulnerabilities in web applications. It crawls websites, extracts URL parameters, and tests them using various XSS payloads to identify potential vulnerabilities. This tool is designed for penetration testers and security researchers to enhance web application security.
