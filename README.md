@@ -1,5 +1,5 @@
 
-   ![Banner](banner.png)
+   ![Banner](xss-finder.jpg)
 
 
 # XSS Finder
