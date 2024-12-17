@@ -35,7 +35,7 @@ def print_banner():
     Automated XSS & Reflected Parameter Finder Tool
     Author: rootdr | Twitter: @R00TDR , Telegram: https://t.me/RootDr
     """
-    print(colored(banner, "red"))
+    print(colored(banner, "cyan"))
 
 def fetch_url(url):
     """Fetch content of a URL."""
