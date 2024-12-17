@@ -24,7 +24,7 @@ Ensure that you have Python 3.x installed. Additionally, you will need to instal
 Clone the repository and install dependencies using pip:
 
 
-`git clone https://github.com/YOUR_USERNAME/xss-finder.git`
+`git clone https://github.com/rootDR/xss-finder.git`
 
 `cd xss-finder`
 
