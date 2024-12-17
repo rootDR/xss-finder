@@ -34,6 +34,8 @@ Clone the repository and install dependencies using pip:
 
 `python xss_finder.py -t http://example.com`
 
+![XSS Finder Result](test.png)
+
 #### Arguments
 -t, --target : Required. The target domain to scan (e.g., http://example.com).
 -s, --subdomains : Optional. Crawl subdomains as well.
